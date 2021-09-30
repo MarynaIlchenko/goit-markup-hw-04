@@ -145,14 +145,28 @@ img {
     color: var(--accent-color)
 }
 
+.header-contacts-item {
+    display: flex;
+    align-items: center;
+}
+
 .header-contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: start;
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--header-contacts-color)
+}
+
+.header-icon{
+    fill: currentColor;
+    margin-right: 10px;
 }
 
 
@@ -243,6 +257,33 @@ img {
     color: var(--secondary-title-color)
 }
 
+.about-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-antena::before {
+    background-image: url(../images/antenna-1.svg);
+}
+
+.icon-clock::before{
+    background-image: url(../images/clock-1.svg);
+}
+
+.icon-diagram::before{
+    background-image: url(../images/diagram-1.svg)
+}
+
+.icon-astronaut::before{
+    background-image:url(../images/astronaut-1.svg)
+}
+
 .about-item-text{
     font-weight: normal;
     font-size: 14px;
@@ -250,6 +291,7 @@ img {
     margin-bottom: 0px;
     color: var(--primery-text-color)
 }
+
 
 /*---------- SERVICES------- */
 
@@ -363,7 +405,6 @@ img {
 .social-list{
     display: flex;
     justify-content: center;
-    outline: 1px solid red;
 }
 
 .social-item:not(:last-child){
