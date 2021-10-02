@@ -675,6 +675,5 @@ img {
 .cases-link{
     display: block;
     cursor: pointer;
-    color: var(--primery-text-color);
     text-decoration: none;
 }
