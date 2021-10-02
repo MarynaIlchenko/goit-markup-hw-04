@@ -662,19 +662,19 @@ img {
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
     margin-bottom: 4px;
-    color: var(--secondary-title-color)
+    color: var(--secondary-title-color);
 }
 
 .cases-item-text{
     font-size: 16px;
     line-height: calc(30 / 16);
-    margin: 0px
-    color: var(--primery-text-color)
+    margin: 0px;
+    color: var(--primery-text-color);
 }
 
 .cases-link{
     display: block;
     cursor: pointer;
     text-decoration: none;
-    color: var(--primery-text-color)
+    color: var(--primery-text-color);
 }
