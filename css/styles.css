@@ -183,6 +183,7 @@ img {
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
+    margin: 0 auto;
 }
 
 .hero-container {
